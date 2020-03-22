@@ -1,0 +1,5 @@
+export const GET_ALL_DATA = 'GET_ALL_DATA'
+export const POST_UPDATE_DONE = 'POST_UPDATE_DONE'
+export const POST_ADD_ITEM = 'POST_ADD_ITEM'
+export const POST_DELETE_ITEM = 'POST_DELETE_ITEM'
+export const POST_LOGIN = 'POST_LOGIN'
