@@ -5,21 +5,25 @@
 A shopping list app, which is basically the same as a todo app.
 This project was started in order to experiment with different technologies like socket.io & vuetify.
 
-The main features are:
+**The main features are**:
 
 + live updates to other users
 + offline support: changes get stored locally & pushed when online again
 + pwa, can be installed on all platforms & mobile devices
 + user login, authentication with jwt
 
-Techstack:
-+ vue.js
-+ vuex
-+ vuetify
-+ axios
-+ socket.io
-+ express.js
-+ jwt
+![app-images](screenshots/basic.png)
+
+
+**Techstack**:
+
++ [vue.js](https://vuejs.org/)
++ [vuex](https://vuex.vuejs.org/)
++ [vuetify](https://vuetifyjs.com/en/)
++ [axios](https://github.com/axios/axios)
++ [socket.io](https://socket.io/)
++ [express.js](https://expressjs.com)
++ [jwt](https://jwt.io/)
 
 
 ## Frontend setup
