@@ -1,5 +1,5 @@
 keypair:
-	ssh-keygen -t rsa -b 1024 -N "" -f ${PWD}/id_rsa
+	ssh-keygen -t rsa -b 1024 -m pem -N "" -f ${PWD}/id_rsa
 	ssh-keygen -e -m PKCS8 -f ${PWD}/id_rsa.pub > ${PWD}/id_rsa_conv.pub
 	rm ${PWD}/id_rsa.pub
 	mv ${PWD}/id_rsa_conv.pub ${PWD}/id_rsa.pub
